@@ -1,5 +1,11 @@
 // === MEDIA ===
 
+@media (max-width: 1024px) {
+    .categories__items {
+        grid-column-gap: 0px;
+    }
+}
+
 @media (max-width: 950px) {
 
     .header__wrapper {
@@ -32,7 +38,9 @@
         width: 280px;
     }
 
-
+    .top__wrapper {
+        height: auto;
+    }
 }
 
 @media (max-width: 800px) {
@@ -87,7 +95,6 @@
     .top__wrapper {
         flex-wrap: wrap;
         justify-content: center;
-        height: auto;
     }
 
     .top__images {
@@ -140,6 +147,7 @@
 
     .test__inner {
         flex-direction: column;
+        margin-right: 10px;
     }
 
     .test__picture {

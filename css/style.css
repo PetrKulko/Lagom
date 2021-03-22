@@ -782,6 +782,11 @@ section {
   text-align: center;
 }
 
+@media (max-width: 1024px) {
+  .categories__items {
+    grid-column-gap: 0px;
+  }
+}
 @media (max-width: 950px) {
   .header__wrapper {
     -webkit-box-pack: space-evenly;
@@ -816,6 +821,10 @@ section {
 
   .sub__form-input {
     width: 280px;
+  }
+
+  .top__wrapper {
+    height: auto;
   }
 }
 @media (max-width: 800px) {
@@ -882,7 +891,6 @@ section {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    height: auto;
   }
 
   .top__images {
@@ -949,6 +957,7 @@ section {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-right: 10px;
   }
 
   .test__picture {
