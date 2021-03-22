@@ -805,6 +805,7 @@ $bar-spacing: 15px;
 
     &__form {
         display: flex;
+        align-items: center;
 
         &-input {
             width: 330px;
