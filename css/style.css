@@ -722,6 +722,8 @@ section {
   border: none;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
+  min-height: 40px;
+  outline: none;
 }
 
 .footer {
@@ -887,8 +889,6 @@ section {
     -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
             order: -1;
-    width: 75%;
-    height: 75%;
   }
 
   .top::after {

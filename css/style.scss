@@ -817,6 +817,8 @@ $bar-spacing: 15px;
             border: none;
             border-top-left-radius: 0px;
             border-bottom-left-radius: 0px;
+            min-height: 40px;
+            outline: none;
         }
     }
 }
